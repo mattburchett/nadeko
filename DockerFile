@@ -8,7 +8,7 @@ RUN echo "deb http://www.deb-multimedia.org jessie main non-free" | tee /etc/apt
 	&& apt-get update \
 	&& apt-get install -y --force-yes deb-multimedia-keyring \
 	&& apt-get update \
-	&& apt-get install -y git libopus0 opus-tools libopus-dev libsodium-dev ffmpeg
+	&& apt-get install -y git libopus0 opus-tools libopus-dev libsodium-dev ffmpeg youtube-dl python2
 
 #Download and install stable version of Nadeko
 RUN curl -L https://raw.githubusercontent.com/Poag/nadeko/1.4/nadeko_installer_1_4.sh | sh \
