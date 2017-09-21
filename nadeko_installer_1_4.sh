@@ -29,7 +29,7 @@ cd "$root"
 
 echo ""
 echo "Downloading NadekoBot, please wait."
-git clone -b weathermod --recursive --depth 1 https://github.com/mattburchett/NadekoBot.git
+git clone -b weather2 --recursive --depth 1 https://github.com/mattburchett/NadekoBot.git
 echo ""
 echo "NadekoBot downloaded."
 
