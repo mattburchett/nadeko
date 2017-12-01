@@ -17,8 +17,8 @@ RUN 	apt-get update && apt-get install -y git libopus0 opus-tools libopus-dev li
 RUN 	curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl && chmod a+rx /usr/local/bin/youtube-dl
 
 #Download and install stable version of Nadeko
-RUN 	curl -O https://raw.githubusercontent.com/mattburchett/nadeko/1.4/nadeko_installer_1_4.sh && chmod 755 nadeko_installer_1_4.sh && ./nadeko_installer_1_4.sh \
-	&& curl -O https://raw.githubusercontent.com/mattburchett/nadeko/1.4/nadeko_autorestart.sh && chmod 755 nadeko_autorestart.sh
+RUN 	curl -O https://raw.githubusercontent.com/mattburchett/nadeko/release/nadeko_installer_1_4.sh && chmod 755 nadeko_installer_1_4.sh && ./nadeko_installer_1_4.sh \
+	&& curl -O https://raw.githubusercontent.com/mattburchett/nadeko/release/nadeko_autorestart.sh && chmod 755 nadeko_autorestart.sh
  
 	
 	
